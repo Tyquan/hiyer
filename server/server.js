@@ -13,7 +13,7 @@ const publicPath = path.join(__dirname, '..', 'client/dist');
 const port = process.env.PORT || 3000;
 
 // mlab connection 
-const mongoUri = 'mongodb://Tyquan:Jamela17!@ds139278.mlab.com:39278/whatsvi';
+const mongoUri = 'mongodb://localhost:27017/hiyer';
 
 // mongoose mlab connection
 mongoose.connect(mongoUri);
